@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
 
 :root {
     /* ------ Color Primary ------ */
     --pink: hsl(322, 100%, 66%);
+    --light-pink: hsl(321, 100%, 78%);
+    --light-red: hsl(0, 100%, 63%);
 
     /* ------ Color Neutral ------ */
-    --very-pale-cyan: hsl(193, 100%, 96%);
     --very-dark-cyan: hsl(192, 100%, 9%);
-    --grayish-blue: hsl(208, 11%, 55%);
+    --very-pale-blue: hsl(207, 100%, 98%);
 
     /* -------- Attribution -------- */
     --attribution: hsl(228, 45%, 44%);
@@ -19,7 +20,7 @@
     --font-bold: 700;
     --font-Poppins: 'Poppins', sans-serif;
     --font-Open-Sans: 'Open Sans', sans-serif;
-    --font-size: 18px;
+    --font-size: 16px;
     --font-style: normal;
 }
 
@@ -29,7 +30,7 @@ body {
     font-size: var(--font-size);
     font-weight: var(--font-regular);
     font-style: var(--font-style);
-    color: var(--grayish-blue);
+    /* color: var(--grayish-blue); */
 }
 
 main {
@@ -49,7 +50,7 @@ main {
 }
 
 /* ------ button ------ */
-button {
+/* button {
     background-color: var(--pink);
     height: 40px;
     width: 240px;
@@ -69,4 +70,4 @@ button {
 button:hover {
     cursor: pointer;
     opacity: 0.5;
-}
+} */
