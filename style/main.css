@@ -50,10 +50,10 @@ main {
 }
 
 /* ------ button ------ */
-/* button {
+button {
     background-color: var(--pink);
     height: 40px;
-    width: 240px;
+    width: 200px;
     border-radius: 20px;
     border: none;
     color: white;
@@ -62,12 +62,11 @@ main {
     box-shadow: 1px 3px 10px var(--grayish-blue);
 }
 
-.float button {
-    width: 200px;
-    margin-top: 30px;
-}
-
 button:hover {
     cursor: pointer;
     opacity: 0.5;
-} */
+}
+
+.build button {
+    margin-top: 50px;
+}
