@@ -1,5 +1,9 @@
 /* ------ Score ------ */
 .score {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     background-color: aquamarine;
     height: 440px;
     width: 100vw;
@@ -11,26 +15,21 @@
 }
 
 .score div {
-    width: 154px;
-    height: 150px;
-    border: 1px solid salmon;
-    /* background-color: beige; */
-    font-size: 50px;
-    color: var(--very-dark-cyan);
-    font-family: var(--font-Poppins);
+    display: flex;
+    flex-direction: column;
 }
 
 .score span {
-    /* width: 154px;
-    height: 150px;
-    border: 1px solid salmon; */
-    /* background-color: beige; */
-    font-size: 50px;
     color: var(--very-dark-cyan);
     font-family: var(--font-Poppins);
+    font-size: 60px;
+    margin-top: 10px;
 }
 
 .score p {
-    color: gray;
-    font-size: 16px;
+    font-weight: var(--font-semi-bold);
+    color: rgb(148, 148, 148);
+    font-size: 14px;
+    text-align: center;
+    margin-top: 25px;
 }
