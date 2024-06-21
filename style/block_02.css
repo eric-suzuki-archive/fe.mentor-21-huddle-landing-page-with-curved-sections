@@ -5,19 +5,18 @@
     flex-direction: column;
     align-items: center;
     height: 2105px;
-    width: 375px;
+    /* width: 375px; */
 }
 
 .block_02 img {
     background-size: contain;
     height: 195px;
     width: auto;
-    /* padding: 55px 45px; */
+    margin-top: 80px;
 }
 
 .block_02 p {
     font-size: 15px;
-    /* padding: 20px 40px 0; */
     margin: 20px 40px 0;
     text-align: center;
     line-height: 18px;
@@ -29,7 +28,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 375px;
+    /* width: 375px; */
 }
 
 .grow {
@@ -37,9 +36,21 @@
     background-size: auto, auto;
     background-position: top center, bottom center;
     background-repeat: no-repeat, no-repeat;
-    padding-top: 190px;
-    padding-bottom: 200px;
+    padding-top: 112px;
+    padding-bottom: 52px;
     box-sizing: border-box;
+}
+
+.inter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--very-pale-blue);
+    height: 555px;
+}
+
+.flowing img{
+    margin-top: 135px;
 }
 
 h2,
