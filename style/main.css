@@ -74,3 +74,10 @@ button:hover {
 .ready button{
     margin-top: 38px;
 }
+
+.subscribe button{
+    height: 50px;
+    width: 160px;
+    border-radius: 10px;
+    margin-left: 165px;
+}
