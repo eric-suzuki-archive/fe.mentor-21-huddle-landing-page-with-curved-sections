@@ -70,3 +70,7 @@ button:hover {
 .build button {
     margin-top: 50px;
 }
+
+.ready button{
+    margin-top: 38px;
+}
