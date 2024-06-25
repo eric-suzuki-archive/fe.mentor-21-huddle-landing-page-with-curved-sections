@@ -64,20 +64,20 @@ button {
 
 button:hover {
     cursor: pointer;
-    opacity: 0.5;
+    background-color: var(--light-pink);
 }
 
 .build button {
     margin-top: 50px;
 }
 
-.ready button{
+.ready button {
     margin-top: 38px;
 }
 
-.subscribe button{
+.subscribe button {
     height: 50px;
     width: 160px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-left: 165px;
 }
