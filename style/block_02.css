@@ -1,11 +1,10 @@
 /* ------ Block_02 ------ */
 .block_02 {
-    /* background-color: burlywood; */
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 2105px;
-    /* width: 375px; */
+    width: auto;
 }
 
 .block_02 img {
@@ -28,7 +27,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 375px; */
 }
 
 .inter{
