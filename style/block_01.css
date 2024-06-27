@@ -4,7 +4,6 @@
     flex-direction: column;
     height: 800px;
     width: 375px;
-    /* background-color: burlywood; */
     color: var(--very-dark-cyan);
 }
 
@@ -15,6 +14,7 @@ header {
     justify-content: space-between;
     height: 70px;
     width: auto;
+    background-color: red;
 }
 
 header img {
@@ -30,7 +30,7 @@ header div {
     color: var(--light-pink);
     border: 1px solid var(--light-pink);
     font-size: 10px;
-    font-weight: var(--font-bold);
+    font-weight: var(--font-semi-bold);
     border-radius: 12px;
     text-align: center;
     line-height: 24px;
