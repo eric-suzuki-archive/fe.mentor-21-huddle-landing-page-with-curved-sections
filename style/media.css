@@ -6,6 +6,7 @@
         width: 1440px;
     }
 
+
     /* ------ button ------ */
     button {
         height: 80px;
@@ -13,11 +14,13 @@
         border-radius: 40px;
     }
 
+
     /* ------ Block_01 ------ */
     .block_01 {
         width: 1440px;
         height: 1544px;
     }
+
 
     /* ------ Header ------ */
     header {
@@ -38,41 +41,68 @@
         margin: 0px 62px;
     }
 
-    /* ------ Build ------ */
-    .build {
-        flex-direction: row;
-    }
 
+    /* ------ Build ------ */
     .build h1 {
-        font-size: 39.5px;
-        line-height: 60px;
-        padding: 0;
-        text-align: left;
+        font-size: 46px;
+        line-height: unset;
+        padding: 0 220px;
+        text-align: center;
+        margin-top: 165px;
     }
 
     .build p {
-        height: 74px;
-        padding: 0;
-        text-align: left;
-        font-size: 17.5px;
-        line-height: 24px;
-        margin: 26px 0 35px;
-    }
-
-    .build div {
-        align-items: flex-start;
-        padding: 0 80px 0 80px;
-        width: 515px;
-        height: 310px;
-        margin-top: 75px;
+        font-size: 20px;
+        line-height: 38px;
+        text-align: center;
+        padding: 0 425px;
+        margin-top: 32px;
     }
 
     .build img {
         height: auto;
-        width: 680px;
-        margin-top: 70px;
-        margin-right: 90px;
+        width: 1018px;
+        margin-top: 120px;
     }
+
+
+    /* ------ Score ------ */
+    .score {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: aquamarine; */
+        height: 440px;
+        width: 100vw;
+    }
+
+    .score img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .score div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .score span {
+        color: var(--very-dark-cyan);
+        font-family: var(--font-Poppins);
+        font-size: 60px;
+        margin-top: 10px;
+    }
+
+    .score p {
+        font-weight: var(--font-semi-bold);
+        color: rgb(148, 148, 148);
+        font-size: 14px;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+
 
 
     /* ------ Block_02 ------ */

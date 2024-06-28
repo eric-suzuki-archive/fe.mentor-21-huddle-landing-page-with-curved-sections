@@ -5,6 +5,7 @@
     height: 800px;
     width: 375px;
     color: var(--very-dark-cyan);
+    background-color: aqua;
 }
 
 /* ------ header ------ */
@@ -14,7 +15,6 @@ header {
     justify-content: space-between;
     height: 70px;
     width: auto;
-    background-color: red;
 }
 
 header img {
