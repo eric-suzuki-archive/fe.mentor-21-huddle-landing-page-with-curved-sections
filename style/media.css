@@ -1,205 +1,263 @@
 /* ------ Responsivo ------ */
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 600px) {
 
     /* ------ main ------ */
     .container {
         width: 1440px;
     }
 
+
     /* ------ button ------ */
     button {
-        height: 60px;
-        width: 280px;
-        border-radius: 30px;
-    }
-
-    .float button {
-        width: 400px;
         height: 80px;
+        width: 400px;
         border-radius: 40px;
-        margin-top: 38px;
         font-size: 20px;
     }
+
+    .subscribe button {
+        position: absolute;
+        left: 200px;
+        top: 5px;
+        font-size: 18px;
+    }
+
 
     /* ------ Block_01 ------ */
     .block_01 {
         width: 1440px;
-        height: 720px;
-        background-image: url(../images/bg-hero-desktop.svg);
-        margin-bottom: 0px;
+        height: 1544px;
     }
+
 
     /* ------ Header ------ */
     header {
-        padding: 50px 80px 0;
+        height: 196px;
     }
 
     header img {
-        height: 32px;
-        width: 200px;
+        height: 38px;
+        margin: 0px 80px;
     }
 
     header div {
+        height: 40px;
+        width: 138px;
+        border-radius: 20px;
         font-size: 16px;
-        height: 48px;
-        width: 200px;
-        border-radius: 24px;
-        line-height: 48px;
+        line-height: 36px;
+        margin: 0px 62px;
     }
+
 
     /* ------ Build ------ */
-    .build {
-        flex-direction: row;
-    }
-
     .build h1 {
-        font-size: 39.5px;
-        line-height: 60px;
-        padding: 0;
-        text-align: left;
+        font-size: 46px;
+        line-height: unset;
+        padding: 0 220px;
+        text-align: center;
+        margin-top: 165px;
     }
 
     .build p {
-        height: 74px;
-        padding: 0;
-        text-align: left;
-        font-size: 17.5px;
-        line-height: 24px;
-        margin: 26px 0 35px;
-    }
-
-    .build div {
-        align-items: flex-start;
-        padding: 0 80px 0 80px;
-        width: 515px;
-        height: 310px;
-        margin-top: 75px;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        padding: 0 425px;
+        margin-top: 32px;
     }
 
     .build img {
         height: auto;
-        width: 680px;
-        margin-top: 70px;
-        margin-right: 90px;
+        width: 1018px;
+        margin-top: 120px;
+    }
+
+
+    /* ------ Score ------ */
+    .score {
+        flex-direction: row;
+        justify-content: center;
+        height: 380px;
+        width: 1440px;
+    }
+
+    .score img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .score div {
+        padding: 0 170px;
+    }
+
+    .score span {
+        font-size: 86px;
+        margin-top: 20px;
+    }
+
+    .score p {
+        font-size: 20px;
+        margin-top: 45px;
     }
 
 
     /* ------ Block_02 ------ */
     .block_02 {
-        height: 1905px;
+        height: 2310px;
         width: 1440px;
+        margin-top: 50px;
     }
 
     .block_02 img {
         height: auto;
-        width: 410px;
-        padding: 55px 30px;
+        width: 510px;
+        margin-top: 70px;
     }
 
     .block_02 p {
-        font-size: 18px;
-        padding: 20px 0 0;
+        margin: 25px 0 0;
         text-align: left;
         line-height: 26px;
     }
 
-    .block_02 .text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 505px;
-        height: 135px;
-        margin: 0 0 0 115px;
+    .grow h2,
+    .grow p {
+        padding: 0 140px 0 125px;
     }
 
-    .grow,
-    .flowing,
-    .your {
-        display: flex;
+    .flowing h3,
+    .flowing p {
+        padding: 0 150px 0 130px;
+    }
+
+    .your h4,
+    .your p {
+        padding: 0 120px 0 140px;
+    }
+
+    .inter {
         flex-direction: row-reverse;
-        align-items: center;
-        justify-content: space-between;
-        width: 1230px;
-        height: 440px;
+        height: 530px;
+    }
+
+    .your .inter {
+        height: 480px;
     }
 
     .grow {
-        margin-top: 160px;
+        background-image: url(../images/bg-section-top-desktop-1.svg), url(../images/bg-section-bottom-desktop-1.svg);
+        padding-top: 164px;
+        padding-bottom: 138px;
+    }
+
+    .grow img {
+        padding-right: 160px;
+    }
+
+    .flowing img {
+        padding-left: 140px;
+    }
+
+    .your img {
+        padding-right: 130px;
+    }
+
+    .your {
+        background-image: url(../images/bg-section-top-desktop-2.svg), url(../images/bg-section-bottom-desktop-2.svg);
+        padding-top: 154px;
+        padding-bottom: 135px;
     }
 
     .flowing {
         flex-direction: row;
-    }
-
-    .flowing .text {
-        margin: 0 30px 0 0;
+        height: 685px;
     }
 
     h2,
     h3,
     h4 {
+        font-size: 40px;
         text-align: left;
-        font-size: 30px;
     }
 
-    /* ------ Float ------ */
-    .float {
-        justify-content: flex-start;
-        width: 805px;
-        height: 280px;
-        top: 2440px;
+
+    /* ------ Ready ------ */
+    .ready {
+
+        width: 1440px;
+        height: 512px;
+        padding-bottom: unset;
     }
 
     h5 {
-        font-size: 32px;
-        margin-top: 75px;
+        line-height: unset;
+        font-size: 44px;
     }
+
 
     /* ------ Block_03 ------ */
     .block_03 {
-        display: flex;
-        flex-direction: row;
-        height: 560px;
+        background-image: url(../images/bg-footer-top-desktop.svg);
+        padding-top: 157px;
         width: 1440px;
     }
 
-    .description_01 {
-        margin-top: 190px;
-        padding-left: 120px;
-    }
-
-    .description_01 img {
-        height: 40px;
-        width: 240px;
-    }
-
-    .maps {
-        margin-top: 40px;
-        width: 330px;
-        padding-right: 0;
-    }
-
-    .description_02,
-    .description_03,
-    .description_04 {
-        margin-top: 280px;
-        padding: 0;
-    }
-
-    .description_02 {
-        margin-left: 145px;
-    }
-
-    .description_03 {
-        margin-left: 115px;
-    }
-
-    .description_04 {
-        margin-left: 140px;
+    .block_03 .inter {
+        flex-direction: row;
         align-items: flex-start;
+        justify-content: flex-start;
+        height: 555px;
+        padding: 0 118px;
     }
 
-    .description_04 p {
-        margin-top: 180px;
+    /* ------ news ------ */
+    .news {
+        margin-top: 100px;
+        margin-left: 290px;
+    }
+
+    .news h6 {
+        margin-top: 20px;
+    }
+
+    .news p {
+        width: 340px;
+        margin-top: 30px;
+    }
+
+    /* ------ subscribe ------ */
+    .subscribe {
+        position: relative;
+        margin-top: 40px;
+    }
+
+    /* ------ huddle ------ */
+
+    .huddle img {
+        width: 240px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .huddle p {
+        width: 300px;
+    }
+
+
+    .phone {
+        background-image: url(../images/icon-phone.svg);
+        margin-top: 30px;
+    }
+
+    .email {
+        background-image: url(../images/icon-email.svg);
+        margin-top: 20px;
+    }
+
+    .social img {
+        margin-top: 80px;
+        height: 34px;
+        width: 34px;
     }
 }

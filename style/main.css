@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
 
 :root {
     /* ------ Color Primary ------ */
     --pink: hsl(322, 100%, 66%);
+    --light-pink: hsl(321, 100%, 78%);
+    --light-red: hsl(0, 100%, 63%);
 
     /* ------ Color Neutral ------ */
-    --very-pale-cyan: hsl(193, 100%, 96%);
     --very-dark-cyan: hsl(192, 100%, 9%);
-    --grayish-blue: hsl(208, 11%, 55%);
+    --very-pale-blue: hsl(207, 100%, 98%);
 
     /* -------- Attribution -------- */
     --attribution: hsl(228, 45%, 44%);
@@ -19,7 +20,7 @@
     --font-bold: 700;
     --font-Poppins: 'Poppins', sans-serif;
     --font-Open-Sans: 'Open Sans', sans-serif;
-    --font-size: 18px;
+    --font-size: 16px;
     --font-style: normal;
 }
 
@@ -29,7 +30,6 @@ body {
     font-size: var(--font-size);
     font-weight: var(--font-regular);
     font-style: var(--font-style);
-    color: var(--grayish-blue);
 }
 
 main {
@@ -52,7 +52,7 @@ main {
 button {
     background-color: var(--pink);
     height: 40px;
-    width: 240px;
+    width: 200px;
     border-radius: 20px;
     border: none;
     color: white;
@@ -61,12 +61,22 @@ button {
     box-shadow: 1px 3px 10px var(--grayish-blue);
 }
 
-.float button {
-    width: 200px;
-    margin-top: 30px;
-}
-
 button:hover {
     cursor: pointer;
-    opacity: 0.5;
+    background-color: var(--light-pink);
+}
+
+.build button {
+    margin-top: 50px;
+}
+
+.ready button {
+    margin-top: 38px;
+}
+
+.subscribe button {
+    height: 50px;
+    width: 160px;
+    border-radius: 5px;
+    margin-left: 165px;
 }
