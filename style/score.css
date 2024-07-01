@@ -20,7 +20,7 @@
 
 .score span {
     color: var(--very-dark-cyan);
-    font-family: var(--font-Poppins);
+    font-weight:var(--font-bold);
     font-size: 60px;
     margin-top: 10px;
 }
